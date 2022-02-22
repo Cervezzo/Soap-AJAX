@@ -13,7 +13,7 @@ try {
 
         //set the header
         $auth_params = new stdClass();
-        $auth_params->username = 'iess';
+        $auth_params->username = 'ies';
         $auth_params->password = 'daw';
 
         $header_params = new SoapVar($auth_params, SOAP_ENC_OBJECT);
